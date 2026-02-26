@@ -1778,7 +1778,9 @@ cc_defaults {
     static_libs: ["libasync_safe"],
     apex_available: [
         "//apex_available:platform",
+        "com.android.bt",
     ],
+    min_sdk_version: "Tiramisu",
 
     static: {
         system_shared_libs: [],
